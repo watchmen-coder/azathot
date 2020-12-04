@@ -1,4 +1,3 @@
-from bylib.decorepy import *
 import argparse, sys
 
 if __name__ == "__main__":
@@ -16,7 +15,7 @@ if __name__ == "__main__":
         python azathot.py --help or use python azathot.py --tool""")
 
     if tool == 'bin-info':
-        import tools.bining
+        import tools.bin_info
 
     elif tool == 'checker':
-        import tools.CCheck
+        print("This tool was deleted")
