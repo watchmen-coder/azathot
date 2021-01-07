@@ -13,31 +13,31 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/spanish/README.md"><img title="Spanish" src="https://img.shields.io/badge/Translate%20to-Spanish-inactive?style=for-the-badge&logo=google-translate"></a>
+<a href="https://github.com/ByDog3r/azathot/blob/ByDog3r/README.md"><img title="ENGLISH" src="https://img.shields.io/badge/Translate%20to-English-inactive?style=for-the-badge&logo=google-translate"></a>
 </p>
 
-## INSTALL: 
+## INSTALACIÓN: 
 
-> Download   [WebDriver Chrome.](https://chromedriver.chromium.org/downloads)
+> Descargar   [WebDriver Chrome.](https://chromedriver.chromium.org/downloads)
 
 ```bash
-     LINUX AND TERMUX ARE THE SAME
+     Linux y Termux es lo mismo.
 
-# Download Chrome Web Driver
+# Descarga el Web Driver de Chrome.
 
-# In directory where we want to clone the git:
+# En el directorio deseado a clonar:
 $ git clone https://github.com/ByDog3r/azathot
 
-# Enter directory that makes:
+# Ingresar al directiorio que se nos ha creado:
 $ cd azathot
 
-# we give execution permissions:
+# Damos permisos de ejecución al script:
 $ chmod +x azathot.py
 
-# Install Dependencies:
+# Instalamos las dependencias:
 $ pip install -r requirements.txt
 
-# Finally execute the script:
+# Finalmente ejecutamos:
 $ python azathot.py
 ```
 
@@ -53,8 +53,8 @@ optional arguments:
                                         Carding tools.
 ```
 
-<h2 align="center"> ENJOY! </h2>
+<h2 align="center"> DISFRUTA! </h2>
 
-|  USAGE         |       BIN-INFO         |	   CHECKER        |
+|  USO           |       BIN-INFO         |	   CHECKER        |
 | -------------- | ---------------------- | ----------------  |  
 |![USAGE](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/usage.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![CHECKER](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/checker.png)|
