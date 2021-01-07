@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://github.com/ByDog3r"><img title="Autor" src="https://img.shields.io/badge/Author-@ByDog3r-blue?style=for-the-badge&logo=github"></a>
-<a href=""><img title="Version" src="https://img.shields.io/badge/Version-1.2.1-red?style=for-the-badge&logo="></a>
+<a href=""><img title="Version" src="https://img.shields.io/badge/Version-1.3.0-red?style=for-the-badge&logo="></a>
 </p>
 
 <p align="center">
@@ -18,33 +18,29 @@
 
 ## INSTALACIÓN: 
 
-> Descargar   [WebDriver Chrome.](https://chromedriver.chromium.org/downloads)
-
 ```bash
-     Linux y Termux es lo mismo.
+     Linux & Termux es lo mismo.
 
-# Descarga el Web Driver de Chrome.
-
-# En el directorio deseado a clonar:
+# En el directorio deseado, clonamos el repositorio:
 $ git clone https://github.com/ByDog3r/azathot
 
-# Ingresar al directiorio que se nos ha creado:
+# Ingresamos al directorio creado:
 $ cd azathot
 
-# Damos permisos de ejecución al script:
-$ chmod +x azathot.py
+# Damos permisos de ejecución:
+$ chmod +x package.sh
 
-# Instalamos las dependencias:
-$ pip install -r requirements.txt
+# Instalamos dependencias:
+$ ./package.sh
 
-# Finalmente ejecutamos:
+# Finalmente ejecutamos el script:
 $ python azathot.py
 ```
 
 > azathot.py -h
 
 ```python
-usage: python azathot.py [-h] [--tool <BIN-INFO | CHECKER >]
+usage: python azathot.py [-h] [--tool < BIN-INFO | TEMP-EMAIL | CC-GEN >]
     Try:
          python azathot.py --help or use python azathot.py --tool
 optional arguments:
@@ -53,8 +49,8 @@ optional arguments:
                                         Carding tools.
 ```
 
-<h2 align="center"> DISFRUTA! </h2>
+<h2 align="center"> Disfruta! </h2>
 
 |  USO           |       BIN-INFO         |	   CHECKER        |
 | -------------- | ---------------------- | ----------------  |  
-|![USAGE](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/usage.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![CHECKER](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/checker.png)|
+|![USAGE](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/usage.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![TEMP-EMAIL](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/checker.png)|

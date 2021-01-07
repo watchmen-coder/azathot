@@ -1,4 +1,4 @@
-import os, requests
+import os, requests, json, sys
 from time import sleep
 from huepy import *
 
@@ -37,26 +37,41 @@ def Bin_Info():
         
         try:
             
-            BIN = input(red("BIN > "))
+            BIN = input(red("   BIN > "))
             clean(); banner()
 
-            MAPPING = { ord('"'):"", ord(","):"\n", ord("}"):"", ord("{"):"" }
-            POST = requests.post(API+BIN)
+            data = requests.get(API+BIN).json()
+            sys.stdout.flush()
 
-            if """<!DOCTYPE html>""" in POST.text:
-                print(bad(yellow("Follow Directions...")))
-
-            else:
-                print(green(POST.text.translate(MAPPING)))
+            print(info(yellow("BIN INFORMATION " +red(BIN + "\n"))))
+            sleep(0.7)
+            print(good(red("[Country]: " +yellow(data['country']['name']))))
+            sleep(0.7)
+            print(good(red("[Sheme]: " +yellow(data['scheme']))))
+            sleep(0.7)
+            print(good(red("[Type]: " +yellow(data['type']))))
+            sleep(0.7)
+            print(good(red("[Brand]: " +yellow(data['brand']))))
+            sleep(0.7)
+            print(good(red("[Bank Name]: " +yellow(data['bank']['name']))))
+            sleep(0.7)
+            print(good(red("[Latitude]: " +yellow(data['country']['latitude']))))
+            sleep(0.7)
+            print(good(red("[Longitude]: " +yellow(data['country']['longitude']))))
+            sleep(0.7)
+            print(good(red("[Bank URL]: " +yellow(data['bank']['url']))))
+            sleep(0.7)
+            print(good(red("[Bank Phone]: " +yellow(data['bank']['phone']))))
+            sleep(0.7)
+            print(good(red("[Bank City]: " +yellow(data['bank']['city']))))
 
         except:
 
-            clean()
-            banner()
             print(bad(yellow("An Error Ocurred...")))
             exit()
 
     main()
+
 
 if __name__ == "__main__":
 
