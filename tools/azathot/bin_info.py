@@ -9,15 +9,15 @@ def Bin_Info():
 
     def banner():
         print(purple("""
-                              .---.         ,,
-                   ,,        /     \       ;,,'
-                  ;, ;      (  o  o )      ; ;
-                    ;,';,,,  \  \/ /      ,; ;
-                ,,,  ;,,,,;;,`   '-,;'''',,,'
-                ;,, ;,, ,,,,   ,;  ,,,'';;,,;''';
-                    ;,,,;    ~~'  '';,,''',,;''''  
+                      .---.         ,,
+           ,,        /     \       ;,,'
+          ;, ;      (  o  o )      ; ;
+            ;,';,,,  \  \/ /      ,; ;
+        ,,,  ;,,,,;;,`   '-,;'''',,,'
+        ;,, ;,, ,,,,   ,;  ,,,'';;,,;''';
+            ;,,,;    ~~'  '';,,''',,;''''  
                                         ''' 
-                    GET INFORMATION ABOUT BIN \n"""))
+            GET INFORMATION ABOUT BIN \n"""))
 
     
     def clean():
@@ -63,7 +63,7 @@ def Bin_Info():
             sleep(0.7)
             print(good(red("[Bank Phone]: " +yellow(data['bank']['phone']))))
             sleep(0.7)
-            print(good(red("[Bank City]: " +yellow(data['bank']['city']))))
+            print(good(red("[Bank City]: " +yellow(data['bank']['city'] + "\n"))))
 
         except:
 

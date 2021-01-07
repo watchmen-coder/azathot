@@ -37,20 +37,21 @@ $ ./package.sh
 $ python azathot.py
 ```
 
-> azathot.py -h
+> Commands
 
 ```python
-usage: python azathot.py [-h] [--tool < BIN-INFO | TEMP-EMAIL | CC-GEN >]
-    Try:
-         python azathot.py --help or use python azathot.py --tool
-optional arguments:
-  -h, --help            show this help message and exit
-  --tool, -t [BIN-INFO | CHECKER | bin-info | checker]
-                                        Carding tools.
+# Use < BIN INFO >
+python azathot.py --tool BIN-INFO
+
+# Use < CC GENERATE >
+python azathot.py --tool CC-GEN
+
+# Use < TEMP EMAIL >
+python azathot.py --tool TEMP-MAIL
 ```
 
 <h2 align="center"> ENJOY! </h2>
 
-|  USAGE         |       BIN-INFO         |	   CHECKER        |
+|  CC-GEN        |       BIN-INFO         |	 TEMP - EMAIL    |
 | -------------- | ---------------------- | ----------------  |  
-|![USAGE](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/usage.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![TEMP-EMAIL](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/checker.png)|
+|![CC Gen](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/usage.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![TEMP-EMAIL](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/temp-mail.png)|

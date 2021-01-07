@@ -3,8 +3,8 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/ByDog3r"><img title="Autor" src="https://img.shields.io/badge/Author-@ByDog3r-blue?style=for-the-badge&logo=github"></a>
-<a href=""><img title="Version" src="https://img.shields.io/badge/Version-1.3.0-red?style=for-the-badge&logo="></a>
+<a href="https://github.com/ByDog3r"><img title="Autor" src="https://img.shields.io/badge/Autor-@ByDog3r-blue?style=for-the-badge&logo=github"></a>
+<a href=""><img title="Version" src="https://img.shields.io/badge/Versión-1.3.0-red?style=for-the-badge&logo="></a>
 </p>
 
 <p align="center">
@@ -37,20 +37,21 @@ $ ./package.sh
 $ python azathot.py
 ```
 
-> azathot.py -h
+> Comandos
 
 ```python
-usage: python azathot.py [-h] [--tool < BIN-INFO | TEMP-EMAIL | CC-GEN >]
-    Try:
-         python azathot.py --help or use python azathot.py --tool
-optional arguments:
-  -h, --help            show this help message and exit
-  --tool, -t [BIN-INFO | CHECKER | bin-info | checker]
-                                        Carding tools.
+# Usar < BIN INFO >
+python azathot.py --tool BIN-INFO
+
+# Usar < CC GENERATE >
+python azathot.py --tool CC-GEN
+
+# Usar < TEMP EMAIL >
+python azathot.py --tool TEMP-MAIL
 ```
 
 <h2 align="center"> Disfruta! </h2>
 
-|  USO           |       BIN-INFO         |	   CHECKER        |
+|  CC-GEN        |       BIN-INFO         |	 TEMP - EMAIL    |
 | -------------- | ---------------------- | ----------------  |  
-|![USAGE](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/usage.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![TEMP-EMAIL](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/checker.png)|
+|![CC Gen](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/usage.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![TEMP-EMAIL](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/temp-mail.png)|
