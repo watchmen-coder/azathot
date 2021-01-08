@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://github.com/ByDog3r"><img title="Autor" src="https://img.shields.io/badge/Autor-@ByDog3r-blue?style=for-the-badge&logo=github"></a>
-<a href=""><img title="Version" src="https://img.shields.io/badge/Versión-1.3.0-red?style=for-the-badge&logo="></a>
+<a href=""><img title="Version" src="https://img.shields.io/badge/Versión-1.3.5-red?style=for-the-badge&logo="></a>
 </p>
 
 <p align="center">

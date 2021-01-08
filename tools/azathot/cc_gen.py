@@ -3,13 +3,31 @@ from random import randint
 from huepy import *
 
 
+#ALGORITHM LUHN
+def CHECKCARD(card_number):
+    sum = 0
+    num_digits = len(card_number)
+    oddeven = num_digits & 1
+
+    for count in range(0, num_digits):
+        digit = int(card_number[count])
+
+        if not (( count & 1 ) ^ oddeven ):
+            digit = digit * 2
+        if digit > 9:
+            digit = digit - 9
+
+        sum = sum + digit
+
+    return ( (sum % 10) == 0 )
+
 def cc_gen(bin):
 
     cc = ""
 
     if len(bin) == 16:
 
-        for x in range(16):
+        for x in range(15):
 
             if bin[x] in ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9"):
                 cc += bin[x]
@@ -21,6 +39,17 @@ def cc_gen(bin):
             else:
                 print(bad(f"Invalid Format Bin: {bin}"))
                 sys.exit()
+
+
+        for i in range(10):
+            check_cc = cc
+            check_cc += str(i)
+
+            if CHECKCARD(check_cc):
+                cc = check_cc
+                break
+            else:
+                check_cc = cc
 
     else:
         print(bad(f"Invalid Format BIN: {bin}"))
