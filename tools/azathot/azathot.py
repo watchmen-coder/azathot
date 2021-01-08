@@ -6,7 +6,7 @@ __version__ = "1.3.5"
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--tool", '-t', type= str, metavar= "[ BIN-INFO | temp-mail | CC-GEN ]", 
+    parser.add_argument("--tool", '-t', type= str, metavar= "[ BIN-INFO | temp-mail | CC-GEN ] ", 
                                 help="Carding tools", default="Choise option")
 
     args = parser.parse_args()

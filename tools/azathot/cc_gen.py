@@ -2,6 +2,7 @@ import os, time, sys, datetime
 from random import randint
 from huepy import *
 
+__version__ = "1.3.5"
 
 #ALGORITHM LUHN
 def CHECKCARD(card_number):
