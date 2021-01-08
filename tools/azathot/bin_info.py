@@ -2,6 +2,8 @@ import os, requests, json, sys
 from time import sleep
 from huepy import *
 
+__version__ = "1.2.3"
+
 API = "https://lookup.binlist.net/"
 
 def Bin_Info():

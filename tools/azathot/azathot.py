@@ -1,6 +1,8 @@
 import argparse, sys, os, time
 from huepy import *
 
+__version__ = "1.3.5"
+
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
@@ -20,9 +22,10 @@ if __name__ == "__main__":
         print(good("Generating Temp-Email."))
         time.sleep(5)
         os.system("w3m https://temp-mail.org/es/")
+        print(good("Finish."))
 
     elif tool == 'cc-gen':
-        pass
+        import tools.azathot.cc_gen
     
 
     elif tool == 'checker':

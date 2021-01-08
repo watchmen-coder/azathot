@@ -54,4 +54,4 @@ python azathot.py --tool TEMP-MAIL
 
 |  CC-GEN        |       BIN-INFO         |	 TEMP - EMAIL    |
 | -------------- | ---------------------- | ----------------  |  
-|![CC Gen](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/usage.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![TEMP-EMAIL](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/temp-mail.png)|
+|![CC Gen](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/ccgen.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![TEMP-EMAIL](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/temp-mail.png)|

@@ -4,7 +4,7 @@
 
 <p align="center">
 <a href="https://github.com/ByDog3r"><img title="Autor" src="https://img.shields.io/badge/Author-@ByDog3r-blue?style=for-the-badge&logo=github"></a>
-<a href=""><img title="Version" src="https://img.shields.io/badge/Version-1.3.0-red?style=for-the-badge&logo="></a>
+<a href=""><img title="Version" src="https://img.shields.io/badge/Version-1.3.5-red?style=for-the-badge&logo="></a>
 </p>
 
 <p align="center">
@@ -54,4 +54,4 @@ python azathot.py --tool TEMP-MAIL
 
 |  CC-GEN        |       BIN-INFO         |	 TEMP - EMAIL    |
 | -------------- | ---------------------- | ----------------  |  
-|![CC Gen](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/usage.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![TEMP-EMAIL](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/temp-mail.png)|
+|![CC Gen](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/ccgen.png)|![BIN-INFO](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/binfo.png)|![TEMP-EMAIL](https://github.com/ByDog3r/azathot/blob/ByDog3r/tools/doc/images/temp-mail.png)|
