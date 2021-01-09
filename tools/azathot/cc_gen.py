@@ -2,7 +2,7 @@ import os, time, sys, datetime
 from random import randint
 from huepy import *
 
-__version__ = "1.3.5"
+__version__ = "1.3.6"
 
 #ALGORITHM LUHN
 def CHECKCARD(card_number):
@@ -51,6 +51,39 @@ def cc_gen(bin):
                 break
             else:
                 check_cc = cc
+
+    elif len(bin) != 16:
+
+        while len(bin) != 16:
+            bin += 'x'
+
+        cc = ""
+
+        if len(bin) == 16:
+
+            for x in range(15):
+
+                if bin[x] in ("0", "1", "2", "3", "4", "5", "6", "7", "8", "9"):
+                    cc += bin[x]
+                    continue
+
+                elif bin[x] in ('x'):
+                    cc += str(randint(0,9))
+
+                else:
+                    print(bad(f"Invalid Format Bin: {bin}"))
+                    sys.exit()
+
+
+            for i in range(10):
+                check_cc = cc
+                check_cc += str(i)
+
+                if CHECKCARD(check_cc):
+                    cc = check_cc
+                    break
+                else:
+                    check_cc = cc
 
     else:
         print(bad(f"Invalid Format BIN: {bin}"))
