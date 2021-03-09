@@ -32,5 +32,12 @@ if __name__ == "__main__":
         print(bad(yellow("This tool was deleted")))
 
     else:
-        print(red("\n Carding ToolKit > Azathot \n"))
-        os.system('python azathot.py -h')
+        if os.name == 'nt':
+
+            print(red("\n Carding ToolKit > Azathot \n"))
+            os.system('python azathot.py -h')
+
+        else:
+            
+            print(red("\n Carding ToolKit > Azathot \n"))
+            os.system('python3 azathot.py -h')

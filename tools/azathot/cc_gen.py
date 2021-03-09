@@ -47,7 +47,8 @@ def cc_gen(bin):
 
     return(cc)
 
-def ValidCC(card_number):
+def ValidCC(card_number): # Luhn Algorithm
+    
     sum = 0
     num_digits = len(card_number)
     oddeven = num_digits & 1
